@@ -1,0 +1,652 @@
+{
+  "id": 3,
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Kaka Chicken Biryani",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "125468",
+              "name": "Kaka Chicken Biryani",
+              "city": "Bokaro",
+              "slugs": {
+                "restaurant": "kaka-chicken-biryani-sec-4-city-centre",
+                "city": "bokaro"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "a7swgc0x7gg1tvczfc9c",
+              "locality": "Sector 3C",
+              "areaName": "City Center",
+              "costForTwo": "25000",
+              "costForTwoMessage": "₹250 for two",
+              "cuisines": ["Biryani"],
+              "avgRating": 4.1,
+              "feeDetails": {
+                "restaurantId": "125468",
+                "fees": [{}]
+              },
+              "parentId": "113665",
+              "avgRatingString": "4.1",
+              "totalRatingsString": "11K+ ratings",
+              "sla": {
+                "restaurantId": "125468",
+                "deliveryTime": 11,
+                "minDeliveryTime": 10,
+                "maxDeliveryTime": 15,
+                "lastMileTravel": 0.7,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1023,
+                "slaString": "10-15 MINS",
+                "lastMileTravelString": "0.7 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-12-21 23:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "60% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "60% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹175 off on orders above ₹699",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "60% off up to ₹120 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹175 off on orders above ₹699 | Use code MEGASAVER",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "kaka-chicken-biryani-sec-4-city-centre",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Near Bokaro Mall, Sector 3 C, Sector 3, Bokaro -827003"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Biryani"
+                }
+              ],
+              "totalRatings": 11000,
+              "aggregatedDiscountInfoV2": {
+                "header": "60% off",
+                "shortDescriptionList": [
+                  {
+                    "meta": "60% off | Use TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹175 off on orders above ₹699",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "meta": "60% off up to ₹120 | Use code TRYNEW",
+                    "discountType": "Percentage",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Flat ₹175 off on orders above ₹699 | Use code MEGASAVER",
+                    "discountType": "Flat",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "minValue": 489,
+                  "maxValue": 699,
+                  "priority": 2,
+                  "couponCode": "MEGASAVER",
+                  "discountInfo": {
+                    "discountType": "Flat",
+                    "value": 175
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to save ₹175 | Code MEGASAVER",
+                  "unlockedMessage": "MEGASAVER Coupon Unlocked! Use it to save ₹175",
+                  "logoCtx": {},
+                  "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                },
+                {
+                  "minValue": 700,
+                  "maxValue": 1000,
+                  "priority": 3,
+                  "couponCode": "PARTY",
+                  "discountInfo": {
+                    "discountType": "Percentage",
+                    "value": 25
+                  },
+                  "lockedMessage": "Add items worth ₹<amount> to unlock flat 25% off | Code PARTY",
+                  "unlockedMessage": "PARTY Coupon Unlocked! Use it to save flat 25% off",
+                  "logoCtx": {},
+                  "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/125468"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "23.66282559,86.1469043",
+              "backgroundImageOverlayInfo": {},
+              "menuHeaderLottie": {
+                "menuHeaderLottie": "https://media-assets.swiggy.com/bolt/bolt%2015%20black.json?updatedAt=1733379625251",
+                "frequencyCapping": {}
+              },
+              "featuredSectionInfo": {},
+              "hasBoltItems": true
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+            "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "60% OFF UPTO ₹120",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["a76189c8-4740-4952-8ec4-a70e55d0ff02"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE TRYNEW",
+                      "description": "ABOVE ₹129",
+                      "offerType": "offers",
+                      "restId": "125468",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE TRYNEW"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹175 OFF",
+                      "offerTag": "DEFAULT",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["a21775ba-44de-445e-9577-1a81c11a9817"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE MEGASAVER",
+                      "description": "ABOVE ₹699",
+                      "offerType": "offers",
+                      "restId": "125468",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE MEGASAVER"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT 25% OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["1df099b4-28ba-4b80-a2a4-02f8f7f0faaf"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE PARTY",
+                      "description": "ABOVE ₹1000",
+                      "offerType": "offers",
+                      "restId": "125468",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE PARTY"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "20% OFF UPTO ₹130",
+                      "offerTagColor": "#E46D47",
+                      "logoBottom": "MARKETING_BANNERS/IMAGES/OFFERS/2025/12/5/2b8e3bf0-4c0e-42b4-8c6b-2932fbd44c70_BankofBarodaMenuLogo.png",
+                      "offerIds": ["b3a3d88b-8ef7-4d7e-aa8b-982fc54feb32"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE BOBDC130",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "125468",
+                      "offerLogo": "MARKETING_BANNERS/IMAGES/OFFERS/2025/12/5/2b8e3bf0-4c0e-42b4-8c6b-2932fbd44c70_BankofBarodaMenuLogo.png",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE BOBDC130"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹175 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["8ea3ef19-d18b-4e34-a411-62dbc638d699"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT175",
+                      "description": "ABOVE ₹699",
+                      "offerType": "offers",
+                      "restId": "125468",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT175"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      },
+                      "bolt": {
+                        "attributes": {
+                          "displayText": "Food in 10-15 mins",
+                          "displayImage": "bolt/bolt%2011.png",
+                          "unselectedDisplayImage": "bolt/bolt%2011.png"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Recommended",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "33332359",
+                              "name": "Chicken Biryani [HALF] With Free Raita & Gravy",
+                              "category": "Biryani",
+                              "description": "Flavourful seasoned basmati rice with succulent pieces of chicken in spiced gravy cooked with dum. served with onion and lemon.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/27/ae9b1169-7fe3-4edd-81c6-ccdb8ec76f5e_23c10d6c-ef68-49af-ae7a-b14233b139f9.jpg",
+                              "inStock": 1,
+                              "price": 14900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "292 ratings",
+                                  "ratingCountV2": "292"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "113738115"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "177718118",
+                              "name": "Chicken Biryani [FULL] With Free Raita & Gravy",
+                              "category": "Biryani",
+                              "description": "A fragrant and flavorful chicken biryani served with creamy raita and rich gravy for a satisfying meal experience.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/2/5f48846f-993a-4c64-b29d-5dd9240ffd77_01356b3f-205f-4fe6-bd07-59be37d04dcb.jpg",
+                              "inStock": 1,
+                              "price": 28900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "showImage": true,
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "53 ratings",
+                                  "ratingCountV2": "53"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "parentId": "113738114"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "type": "CATEGORY_TYPE_RECOMMENDED",
+                      "subtitleSuffix": {},
+                      "categoryId": "-1"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Biryani",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "33332359",
+                              "name": "Chicken Biryani [HALF] With Free Raita & Gravy",
+                              "category": "Biryani",
+                              "description": "Flavourful seasoned basmati rice with succulent pieces of chicken in spiced gravy cooked with dum. served with onion and lemon.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/27/ae9b1169-7fe3-4edd-81c6-ccdb8ec76f5e_23c10d6c-ef68-49af-ae7a-b14233b139f9.jpg",
+                              "inStock": 1,
+                              "price": 14900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.2",
+                                  "ratingCount": "292 ratings",
+                                  "ratingCountV2": "292"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "113738115"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "177718118",
+                              "name": "Chicken Biryani [FULL] With Free Raita & Gravy",
+                              "category": "Biryani",
+                              "description": "A fragrant and flavorful chicken biryani served with creamy raita and rich gravy for a satisfying meal experience.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/8/2/5f48846f-993a-4c64-b29d-5dd9240ffd77_01356b3f-205f-4fe6-bd07-59be37d04dcb.jpg",
+                              "inStock": 1,
+                              "price": 28900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "NONVEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.9",
+                                  "ratingCount": "53 ratings",
+                                  "ratingCountV2": "53"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "113738114"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/8/27/ae9b1169-7fe3-4edd-81c6-ccdb8ec76f5e_23c10d6c-ef68-49af-ae7a-b14233b139f9.jpg",
+                      "categoryId": "4419168"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantLicenseInfo",
+                      "type": "FSSAI",
+                      "imageId": "fssai_final_edss9i",
+                      "text": ["License No. 11122017000018"]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Kaka Chicken Biryani",
+                      "area": "City Center",
+                      "completeAddress": "Near Bokaro Mall, Sector 3 C, Sector 3, Bokaro -827003"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "9a0deabc-2710-4d26-99aa-8911015d99f1",
+  "sid": "oog5f13e-8902-4b6a-8c8d-d8de0517330d",
+  "deviceId": "3019bd6d-60be-9683-1675-62b5ec8037e9",
+  "csrfToken": "TZSptUmHp6TB-yVzB__ldr6n0FqlVAZH0HCsoIgo"
+}

@@ -1,0 +1,66 @@
+@tailwind utilities;
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideIn {
+  from {
+    opacity: 0;
+    transform: translateY(-10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slideIn {
+  animation: slideIn 0.4s ease-out forwards;
+  opacity: 0;
+}
+
+/* ================= SHIMMER EFFECT ================= */
+@keyframes shimmer {
+  0% {
+    left: -100%;
+  }
+  100% {
+    left: 100%;
+  }
+}
+
+.shimmer-overlay {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(
+    90deg,
+    transparent 25%,
+    rgba(255, 255, 255, 0.5) 37%,
+    transparent 63%
+  );
+  animation: shimmer 2.4s infinite;
+}
+
+@media (prefers-color-scheme: dark) {
+  .shimmer-overlay {
+    background: linear-gradient(
+      90deg,
+      #2d2d2d 25%,
+      #404040 37%,
+      #2d2d2d 63%
+    );
+  }
+}

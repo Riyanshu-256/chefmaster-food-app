@@ -1,0 +1,3042 @@
+{
+  "id": 4,
+  "statusCode": 0,
+  "data": {
+    "statusMessage": "done successfully",
+    "cards": [
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.TextBoxV2",
+            "text": "Wow! Kulfi",
+            "headerStyling": {
+              "textColor": "text_Highest_Emphasis",
+              "textVariant": "header_H3_Black"
+            }
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.RestaurantBlTab",
+            "tabs": [
+              {
+                "id": "Order Online",
+                "title": "Order Online"
+              }
+            ]
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Restaurant",
+            "info": {
+              "id": "964023",
+              "name": "Wow! Kulfi",
+              "city": "Bokaro",
+              "slugs": {
+                "restaurant": "wow-kulfi-bokaro-steel-city-city-centre",
+                "city": "bokaro"
+              },
+              "uniqueId": "e51e6528-4859-48c8-8fed-e84c17dc2d76",
+              "cloudinaryImageId": "RX_THUMBNAIL/IMAGES/VENDOR/2025/4/19/db1960c4-50bd-4e42-a5cf-a78c33128498_964023.jpg",
+              "locality": "Bokaro Steel City",
+              "areaName": "Bokaro Mall Food Court",
+              "costForTwo": "12000",
+              "costForTwoMessage": "₹120 for two",
+              "cuisines": ["Ice Cream", "Desserts"],
+              "avgRating": 4.6,
+              "veg": true,
+              "feeDetails": {
+                "restaurantId": "964023",
+                "fees": [{}]
+              },
+              "parentId": "501088",
+              "avgRatingString": "4.6",
+              "totalRatingsString": "126 ratings",
+              "sla": {
+                "restaurantId": "964023",
+                "deliveryTime": 18,
+                "minDeliveryTime": 15,
+                "maxDeliveryTime": 20,
+                "lastMileTravel": 0.6,
+                "serviceability": "SERVICEABLE",
+                "stressFactor": 1,
+                "rainMode": "RAIN_MODE_NONE",
+                "longDistance": "LONG_DISTANCE_NOT_LONG_DISTANCE",
+                "zoneId": 1023,
+                "slaString": "15-20 MINS",
+                "lastMileTravelString": "0.6 km",
+                "iconType": "ICON_TYPE_EMPTY"
+              },
+              "availability": {
+                "nextCloseTime": "2025-12-21 23:00:00",
+                "visibility": true,
+                "opened": true,
+                "restaurantClosedMeta": {}
+              },
+              "aggregatedDiscountInfo": {
+                "header": "_",
+                "shortDescriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Get items under 59",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Get items under 59",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "visible": true
+              },
+              "badges": {},
+              "slugString": "wow-kulfi-bokaro-steel-city-city-centre",
+              "isOpen": true,
+              "labels": [
+                {
+                  "title": "Timings",
+                  "message": "null"
+                },
+                {
+                  "title": "Address",
+                  "message": "Wow! Momo Foods Pvt Ltd, Counter No. 5, Third floor level, Bokaro Mall Food Court, Sector-3 C, Bokaro Steel City - 827003"
+                },
+                {
+                  "title": "Cuisines",
+                  "message": "Ice Cream,Desserts"
+                }
+              ],
+              "totalRatings": 126,
+              "aggregatedDiscountInfoV2": {
+                "header": "_",
+                "shortDescriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Get items under 59",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "descriptionList": [
+                  {
+                    "discountType": "BXGY",
+                    "operationType": "RESTAURANT"
+                  },
+                  {
+                    "meta": "Get items under 59",
+                    "discountType": "FinalPrice",
+                    "operationType": "RESTAURANT"
+                  }
+                ],
+                "couponDetailsCta": "View coupon details"
+              },
+              "type": "F",
+              "nudgeBanners": [
+                {
+                  "priority": 2,
+                  "discountInfo": {
+                    "discountType": "FinalPrice",
+                    "value": 59
+                  },
+                  "unlockedMessage": "Deal of the Day unlocked!",
+                  "minItemCount": 1,
+                  "maxItemCount": 1,
+                  "type": "SILD",
+                  "nudgeTagInfo": {
+                    "title": "Deal of the Day",
+                    "fontName": "FONT_NAME_CONDENSED_BOLD"
+                  },
+                  "logoCtx": {},
+                  "movComputationType": "MOV_COMPUTATION_TYPE_DISCOUNTED_PRICE"
+                }
+              ],
+              "headerBanner": {
+                "url": "swiggy://webview?is_external=false&webview_url=https://www.swiggy.com/restaurant-info/964023"
+              },
+              "ratingSlab": "RATING_SLAB_5",
+              "orderabilityCommunication": {
+                "title": {},
+                "subTitle": {},
+                "message": {},
+                "customIcon": {},
+                "commsStyling": {}
+              },
+              "hasBestsellerItems": true,
+              "cartOrderabilityNudgeBanner": {
+                "parameters": {},
+                "presentation": {}
+              },
+              "latLong": "23.664470,86.147970",
+              "backgroundImageOverlayInfo": {},
+              "menuHeaderLottie": {
+                "menuHeaderLottie": "https://media-assets.swiggy.com/bolt/bolt%2015%20black.json?updatedAt=1733379625251",
+                "frequencyCapping": {}
+              },
+              "featuredSectionInfo": {},
+              "requestContexts": ["enable_ecosaver", "99store"],
+              "hasBoltItems": true
+            },
+            "analytics": {}
+          },
+          "relevance": {
+            "type": "RELEVANCE_TYPE_CHECK_ORDERABILITY_AND_SHOW_MENU_OFFER_NUDGE",
+            "sectionId": "MENU_ITEM_CART_UPDATE_POP_CROUTON"
+          }
+        }
+      },
+      {
+        "card": {
+          "card": {
+            "@type": "type.googleapis.com/swiggy.gandalf.widgets.v2.GridWidget",
+            "layout": {
+              "rows": 1,
+              "columns": 5,
+              "horizontalScrollEnabled": true,
+              "itemSpacing": 12,
+              "lineSpacing": 10,
+              "widgetPadding": {},
+              "containerStyle": {
+                "containerPadding": {
+                  "left": 10,
+                  "right": 10,
+                  "bottom": 16
+                }
+              }
+            },
+            "id": "offerCollectionWidget_UX4",
+            "gridElements": {
+              "infoWithStyle": {
+                "@type": "type.googleapis.com/swiggy.presentation.food.v2.OfferInfoWithStyle",
+                "offers": [
+                  {
+                    "info": {
+                      "header": "BUY 1 GET 1 FREE",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["97e227c5-a940-409f-a68d-79dc6bcd8f6c"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE BUY1GET1",
+                      "description": "ON SELECT ITEMS",
+                      "offerType": "offers",
+                      "restId": "964023",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE BUY1GET1"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "ITEMS AT ₹59",
+                      "offerTag": "DEAL OF DAY",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["183ff960-03ac-4d04-9263-74c66d9de090"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "description": "ON SELECT ITEMS |",
+                      "offerType": "offers",
+                      "restId": "964023",
+                      "offerLogo": "offers/deal-of-day",
+                      "descriptionTextColor": "#7302060C"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹150 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["c32e245a-8051-44af-b9a4-619d779b9d10"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT150",
+                      "description": "ABOVE ₹349",
+                      "offerType": "offers",
+                      "restId": "964023",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT150"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹175 OFF",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["9c62aa2c-2e09-4d33-932f-d5f3f8583330"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE FLAT175",
+                      "description": "ABOVE ₹449",
+                      "offerType": "offers",
+                      "restId": "964023",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE FLAT175"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  },
+                  {
+                    "info": {
+                      "header": "FLAT ₹200 OFF",
+                      "offerTag": "FLAT DEAL",
+                      "offerTagColor": "#E46D47",
+                      "offerIds": ["7cc70763-65bc-4c3d-953d-653a563842bb"],
+                      "expiryTime": "1970-01-01T00:00:00Z",
+                      "couponCode": "USE CELEBRATIONS",
+                      "description": "ABOVE ₹499",
+                      "offerType": "offers",
+                      "restId": "964023",
+                      "offerLogo": "offers/generic",
+                      "descriptionTextColor": "#7302060C",
+                      "primaryDescription": "USE CELEBRATIONS"
+                    },
+                    "cta": {
+                      "type": "OFFER_HALF_CARD"
+                    }
+                  }
+                ],
+                "habitMilestoneInfo": {
+                  "callout": {}
+                },
+                "loyaltyDiscoverPresentationInfo": {
+                  "logoCtx": {}
+                }
+              }
+            }
+          }
+        }
+      },
+      {
+        "groupedCard": {
+          "cardGroupMap": {
+            "REGULAR": {
+              "cards": [
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuVegFilterAndBadge",
+                      "isPureVeg": true,
+                      "badges": {},
+                      "vegOnlyDetails": {
+                        "imageId": "AutoVegOnly_qkjowj",
+                        "title": "Showing only vegetarian options.",
+                        "description": "Tap on the VEG ONLY button to turn off the setting"
+                      },
+                      "offersFilter": {
+                        "attributes": {
+                          "displayText": "Buy 1 Get 1"
+                        }
+                      },
+                      "topRatedFilter": {
+                        "attributes": {
+                          "displayText": "Ratings 4.0+"
+                        }
+                      },
+                      "kidsCategoryFilter": {
+                        "attributes": {
+                          "displayText": "Kids Favourites",
+                          "tooltip": {
+                            "enabled": true,
+                            "displayText": "Kids Favourites Filter applied. Remove this filter to see the full Menu."
+                          }
+                        }
+                      },
+                      "vegFilter": {
+                        "attributes": {
+                          "displayText": "VEG"
+                        }
+                      },
+                      "nonvegFilter": {
+                        "attributes": {
+                          "displayText": "NONVEG"
+                        }
+                      },
+                      "bolt": {
+                        "attributes": {
+                          "displayText": "Food in 10-15 mins",
+                          "displayImage": "bolt/bolt%2011.png",
+                          "unselectedDisplayImage": "bolt/bolt%2011.png"
+                        }
+                      }
+                    },
+                    "relevance": {
+                      "type": "RELEVANCE_TYPE_ON_MENU_FILTER_TOGGLED",
+                      "sectionId": "MENU_FILTER_TOGGLE"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.MenuCarousel",
+                      "title": "Top Picks",
+                      "carousel": [
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "5774205",
+                          "creativeId": "TopPicks/MRbdi",
+                          "title": "Matka Rabdi",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "151704308",
+                              "name": "Matka Rabdi",
+                              "category": "Rabdi",
+                              "description": "Serves 1-Creamy and thick rabdi served in an earthen pot (matka), offering a traditional and authentic Indian dessert experience with a rich and indulgent flavor.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/9ba867de-bf2f-4d5e-a74c-c61eef14c5a2_0be39044-9b0d-43e4-8655-e0c1dc61e3a0.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "itemPriceStrikeOff": true,
+                              "parentId": "82930638"
+                            },
+                            "analytics": {},
+                            "restaurant": {
+                              "info": {
+                                "dishStyle": {
+                                  "socialMarkerStyle": [
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                      "title": "Protein Rich",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "brand_proteinator_primary"
+                                    },
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                      "title": "Bestseller",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "color_swiggy_one"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "5773871",
+                          "creativeId": "TopPicks/KPiKFR",
+                          "title": "Kesar Pista Kulfi Falooda with Rabdi",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "151704299",
+                              "name": "Kesar Pista Kulfi Falooda with Rabdi",
+                              "category": "Kulfi Falooda",
+                              "description": "Serves 1- A traditional Indian dessert combining saffron (kesar) and pistachio (pista) flavored kulfi with thin vermicelli noodles (falooda) and sweetened milk (rabdi). It's often garnished with chopped nuts and served chilled.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/e4e9684c-3166-4ba0-ad90-5f42cbcefab7_05fcb63a-d71f-4007-89c2-205f8a6e2f7d.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "82930627"
+                            },
+                            "analytics": {},
+                            "restaurant": {
+                              "info": {
+                                "dishStyle": {
+                                  "socialMarkerStyle": [
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                      "title": "Protein Rich",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "brand_proteinator_primary"
+                                    },
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                      "title": "Bestseller",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "color_swiggy_one"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "5774344",
+                          "creativeId": "TopPicks/BFal",
+                          "title": "Bombay Special Falooda",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "151704303",
+                              "name": "Bombay Special Falooda",
+                              "category": "Special Falooda",
+                              "description": "Serves 1- Bombay falooda is a popular street food dessert in India. It typically consists of layers of flavored milk, falooda noodles, basil seeds, and ice cream, often garnished with nuts and rose syrup. It's known for its refreshing and indulgent taste.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/4/b431e486-b30a-4e39-a65d-398e86a6add8_166cbb9a-26e1-4c2c-8b98-b7b47913f4f1.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 24900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "110754031"
+                            },
+                            "analytics": {},
+                            "restaurant": {
+                              "info": {
+                                "dishStyle": {
+                                  "socialMarkerStyle": [
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                      "title": "Protein Rich",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "brand_proteinator_primary"
+                                    },
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                      "title": "Bestseller",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "color_swiggy_one"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "5774578",
+                          "creativeId": "TopPicks/MaSKL",
+                          "title": "Malai Stick Kulfi Large",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "171066713",
+                              "name": "Malai Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | Classic Malai goodness on a stick  rich, creamy, and simply irresistible. Indulge in the timeless delight of our Malai Kulfi!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/8a78ae8e-4b76-4d2b-bf6c-4f1e697f3c68_80548174-26db-4271-a8e5-902a24fba192.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "finalPrice": 5900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "itemPriceStrikeOff": true,
+                              "cartContext": "quick_prep",
+                              "offerIds": [
+                                "183ff960-03ac-4d04-9263-74c66d9de090"
+                              ],
+                              "isNinetyninestoreItem": true,
+                              "parentId": "103108808"
+                            },
+                            "analytics": {},
+                            "restaurant": {
+                              "info": {
+                                "dishStyle": {
+                                  "socialMarkerStyle": [
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                      "title": "Protein Rich",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "brand_proteinator_primary"
+                                    },
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                      "title": "Bestseller",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "color_swiggy_one"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "5774577",
+                          "creativeId": "TopPicks/TOSKL",
+                          "title": "Three In One  Stick Kulfi Large",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "151704272",
+                              "name": "Three In One  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | Indulge in Stick Kulfi Three in One, featuring the divine trio of Malai, Kesar, and Pista. A rich, creamy delight awaits! Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c3d1738a-2c8c-4766-89de-87a725f3f1ba_16b97631-62ba-4c41-8e17-30466d218fb8.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "103108820"
+                            },
+                            "analytics": {},
+                            "restaurant": {
+                              "info": {
+                                "dishStyle": {
+                                  "socialMarkerStyle": [
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                      "title": "Protein Rich",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "brand_proteinator_primary"
+                                    },
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                      "title": "Bestseller",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "color_swiggy_one"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "type": "TopCarousel",
+                          "subtype": "image",
+                          "bannerId": "5774536",
+                          "creativeId": "TopPicks/KPiStKL",
+                          "title": "Kesar Pista  Stick Kulfi Large",
+                          "description": "  ",
+                          "fontColor": "#FFFFFF",
+                          "dish": {
+                            "info": {
+                              "id": "171066712",
+                              "name": "Kesar Pista  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | A royal blend of saffron and pistachio in every bite. Savor the regal flavors of Kesar Pista Kulfi on a stick.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/b5577c2b-4979-4bda-a590-dc93727d1726_d35def5c-2cf2-4cb3-a772-82608ca91ab8.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "103108807"
+                            },
+                            "analytics": {},
+                            "restaurant": {
+                              "info": {
+                                "dishStyle": {
+                                  "socialMarkerStyle": [
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_HIGH_PROTEIN",
+                                      "title": "Protein Rich",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "brand_proteinator_primary"
+                                    },
+                                    {
+                                      "socialMarkerType": "SOCIAL_MARKER_TYPE_BESTSELLER",
+                                      "title": "Bestseller",
+                                      "textStyle": "FONT_NAME_V2_BODY3_NEUTRAL_BOLD",
+                                      "textColor": "color_swiggy_one"
+                                    }
+                                  ]
+                                }
+                              }
+                            },
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ]
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Stick Kulfi Regular",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "182717812",
+                              "name": "Stick Kulfi Kesar Pista Regular",
+                              "category": "Stick Kulfi Regular",
+                              "description": "Serves 1 | Serves 1- A royal blend of saffron and pistachio in every bite. Savor the regal flavors of Kesar Pista Kulfi on a stick. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/b5577c2b-4979-4bda-a590-dc93727d1726_d35def5c-2cf2-4cb3-a772-82608ca91ab8.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "89522039"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704268",
+                              "name": "Stick Kulfi Malai Regular",
+                              "category": "Stick Kulfi Regular",
+                              "description": "Serves 1 | Serves 1- Classic Malai goodness on a stick – rich, creamy, and simply irresistible. Indulge in the timeless delight of our Malai Kulfi! Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/9a90382a-9746-4fa0-9eb8-670f53d458c2_a895f662-5356-465b-ad8e-b64f1f17f548.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 6900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "6 ratings",
+                                  "ratingCountV2": "6"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "89522040"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/b5577c2b-4979-4bda-a590-dc93727d1726_d35def5c-2cf2-4cb3-a772-82608ca91ab8.png",
+                      "categoryId": "62227212"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Slice Kulfi (Ice cream)",
+                      "categories": [
+                        {
+                          "title": "Pack of 1 Slice",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "151704315",
+                                  "name": "Slice Kulfi Malai (Pack of 1)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1 | Serves 1- Experience the richness of Slice Kulfi Malai—a creamy delight that captures the essence of pure malai in every delectable slice. Per Serving: Total Protein 6.17g.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/651b1a82-45e8-4296-9698-9de219b44be9_0e8719b9-72ee-46c9-9c64-c9a5be36fab9.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "finalPrice": 5900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "matchText": "SILD"
+                                    }
+                                  ],
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "itemNudgeType": "FinalPrice",
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.6",
+                                      "ratingCount": "3 ratings",
+                                      "ratingCountV2": "3"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": ["#C8F9E5", "#00FFFFFF"],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "cartContext": "quick_prep",
+                                  "isBolt": true,
+                                  "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                                  "offerIds": [
+                                    "183ff960-03ac-4d04-9263-74c66d9de090"
+                                  ],
+                                  "isNinetyninestoreItem": true,
+                                  "parentId": "89522037"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717815",
+                                  "name": "Slice Kulfi Kesar Pista (Pack of 1)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1 | Serves 1- Rich, creamy layers infused with the royal blend of saffron and pistachio in every slice. Per Serving: Total Protein 6.17g",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/5d2053b2-2056-4f63-877e-6843e404a09e_bf22ef66-8329-4afd-b5b0-4c8068342f05.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "89522036"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717816",
+                                  "name": "Slice Kulfi Strawberry (Pack of 1)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1 | Serves 1- Cool off with Strawberry slice Kulfi. A refreshing burst of fruity sweetness in every delightful bite.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/19/c1cb048b-8203-4b87-aa91-706a275cddb4_647888d4-2ddd-4264-841f-078b57da3a2f.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "Buy 1 Get 1",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "B1G1"
+                                    }
+                                  ],
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "itemNudgeType": "B1G1",
+                                  "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "offerIds": [
+                                    "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                                  ],
+                                  "parentId": "89691788"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717817",
+                                  "name": "Slice Kulfi Mango (Pack of 1)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1 | Serves 1-King of fruits - a tropical delight in every slice. Rich, creamy, and bursting with the luscious essence of mango pulp. Per Serving: Total Protein 6.17g.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/19/83690332-9584-4ac9-aa37-9dd68cab3688_f79f7f17-225b-465f-a50b-aefc80409dfc.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "Buy 1 Get 1",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "B1G1"
+                                    }
+                                  ],
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "itemNudgeType": "B1G1",
+                                  "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "offerIds": [
+                                    "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                                  ],
+                                  "parentId": "89691786"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717814",
+                                  "name": "Slice Kulfi Sitaphal (Pack of 1)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1- A custard apple delight that's irresistibly creamy and rich. A flavor to savor not to be missed. Per Serving: Total Protein 6.17g.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/b23e2730-fd9d-4c54-9e2b-b11b0c73f2b9_aaec2e2d-5e27-41a9-814b-dbff6024dfc3.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 11000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "offerTags": [
+                                    {
+                                      "title": "Buy 1 Get 1",
+                                      "textColor": "#DB6742",
+                                      "backgroundColor": "#FAE8E3",
+                                      "matchText": "B1G1"
+                                    }
+                                  ],
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "itemNudgeType": "B1G1",
+                                  "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "offerIds": [
+                                    "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                                  ],
+                                  "parentId": "89522038"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {},
+                          "categoryId": "66757266"
+                        },
+                        {
+                          "title": "Pack of 3 Slice",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "151704290",
+                                  "name": "Slice Kulfi Malai (Pack of 3)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1 | Experience the richness of Slice Kulfi Malaia creamy delight that captures the essence of pure malai in every delectable slice.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/d8e3a4d7-216b-443c-a4c6-f2858f29d4c3_6c704ae7-62d1-4f2a-8a0c-ffd7b44260d9.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "isBolt": true,
+                                  "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                                  "parentId": "80247954"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "151704291",
+                                  "name": "Slice Kulfi Kesar Pista (Pack of 3)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1 | Rich, creamy layers infused with the royal blend of saffron and pistachio in every slice.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/fd8820aa-7977-4c16-affd-9c744e7471ad_bd3cbabe-9bc0-408a-a586-e5fc797f8ec8.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "isBolt": true,
+                                  "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                                  "parentId": "80247953"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "151704293",
+                                  "name": "Slice Kulfi Sitaphal (Pack of 3)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "A custard apple delight that's irresistibly creamy and rich. A flavor to savor not to be missed. Per Serving: Total Protein 6.17g.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/b0fa1763-86d1-4dfe-80b7-a167187239ef_9d195f85-452e-4c17-91c8-d83bd709c753.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "isBolt": true,
+                                  "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                                  "parentId": "80247957"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "151704294",
+                                  "name": "Slice Kulfi Mango (Pack of 3)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 3-King of fruits - a tropical delight in every slice. Rich, creamy, and bursting with the luscious essence of mango pulp. Per Serving: Total Protein 6.17g.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c582f303-21a1-44a5-a30a-94c4805d0b83_2791ff64-eb39-4b7c-9858-7b39e8cd3223.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "80247955"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717820",
+                                  "name": "Slice Kulfi Strawberry (Pack of 3)",
+                                  "category": "Slice Kulfi (Ice cream)",
+                                  "description": "Serves 1- Cool off with Strawberry Slice. A refreshing burst of fruity sweetness in every delightful bite.",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/5/2b92f6b1-6ec3-4221-9a75-661464de07c0_9093e4f2-72cb-41a2-aac2-cf390c54f180.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 33000,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "86408468"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {},
+                          "categoryId": "66863427"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/9/15/651b1a82-45e8-4296-9698-9de219b44be9_0e8719b9-72ee-46c9-9c64-c9a5be36fab9.png",
+                      "categoryId": "66757265"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Stick Kulfi Large",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704272",
+                              "name": "Three In One  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | Indulge in Stick Kulfi Three in One, featuring the divine trio of Malai, Kesar, and Pista. A rich, creamy delight awaits! Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c3d1738a-2c8c-4766-89de-87a725f3f1ba_16b97631-62ba-4c41-8e17-30466d218fb8.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.9",
+                                  "ratingCount": "14 ratings",
+                                  "ratingCountV2": "14"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "103108820"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704273",
+                              "name": "Paan  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | Savor the post-meal tradition with our Meetha Paan. All-natural delight in a stick to enjoy the refreshing blend of Paan, Saunf and Tutti-Frutti. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/88a1dca3-7535-4940-8df1-31ec6f78771e_fa37870a-502e-48d0-b9eb-6f6cc5484e18.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "finalPrice": 5900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.6",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "cartContext": "quick_prep",
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "183ff960-03ac-4d04-9263-74c66d9de090"
+                              ],
+                              "isNinetyninestoreItem": true,
+                              "parentId": "103108813"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704274",
+                              "name": "Choco Chip  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | A perfect blend of creamy kulfi and decadent chocolate chips, creating a delightful frozen treat. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/94762047-7704-4420-8e6d-388558cd0d7e_29052c3d-65c9-4c82-90a1-52d04eeb5a6d.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "finalPrice": 5900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "cartContext": "quick_prep",
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "183ff960-03ac-4d04-9263-74c66d9de090"
+                              ],
+                              "isNinetyninestoreItem": true,
+                              "parentId": "103108805"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "171066712",
+                              "name": "Kesar Pista  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | A royal blend of saffron and pistachio in every bite. Savor the regal flavors of Kesar Pista Kulfi on a stick.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/b5577c2b-4979-4bda-a590-dc93727d1726_d35def5c-2cf2-4cb3-a772-82608ca91ab8.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "103108807"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "171066713",
+                              "name": "Malai Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | Classic Malai goodness on a stick  rich, creamy, and simply irresistible. Indulge in the timeless delight of our Malai Kulfi!",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/8a78ae8e-4b76-4d2b-bf6c-4f1e697f3c68_80548174-26db-4271-a8e5-902a24fba192.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "finalPrice": 5900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.7",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "cartContext": "quick_prep",
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "183ff960-03ac-4d04-9263-74c66d9de090"
+                              ],
+                              "isNinetyninestoreItem": true,
+                              "parentId": "103108808"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "171066714",
+                              "name": "Mango  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | A burst of mango goodness in every slice. Indulge in the luscious flavor of Mango Slice Kulfi for a tropical treat.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/85d39992-fb56-46a7-abf4-3478ca6f7a98_bc38e1d8-8f0a-48ed-9193-9c690dbd2a3f.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108810"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "171066715",
+                              "name": "Shahi Gulab  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1 | Rose-infused almond joy, a sweet symphony of floral and nutty notes in every delectable bite.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/7f64f07b-92b0-4f20-a0b1-f4cc2e319346_89268c31-540a-4a3b-a90c-5c2f6d431b22.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "finalPrice": 5900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "matchText": "SILD"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "FinalPrice",
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "cartContext": "quick_prep",
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "183ff960-03ac-4d04-9263-74c66d9de090"
+                              ],
+                              "isNinetyninestoreItem": true,
+                              "parentId": "103108819"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704276",
+                              "name": "Anjeer  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1- Elevate your dessert experience with the rich, nutty goodness of Anjeer. An indulgent treat in every Anjeer Stick Kulfi. Per Serving: Calories 225.58kcal, Total Fat 9.44g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/84c23057-3784-4ce5-a117-49dcd63beffe_f59dc01e-ec34-4bc8-8ede-b5c833318cde.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108802"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "182717813",
+                              "name": "Butter Scotch  Stick Kulfi Large",
+                              "category": "Stick Kulfi Large",
+                              "description": "Serves 1- This kulfi flavor incorporates the rich and buttery taste of butterscotch. It provides a delightful blend of sweet caramelized sugar, butter, and hints of vanilla, resulting in a creamy and indulgent frozen treat with a satisfying crunch.Per Serving: Calories 200.58kcal, Total Fat 12.44g",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/6/11/ff82ae67-ca3a-479a-a06d-5fdb77f5fde1_60cbda40-841e-417f-9b08-9621195ad253.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 9900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "103108804"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/c3d1738a-2c8c-4766-89de-87a725f3f1ba_16b97631-62ba-4c41-8e17-30466d218fb8.png",
+                      "categoryId": "62227214"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Popsicle Sorbet  Icecream",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704279",
+                              "name": "Popsicles Jamun Ice cream",
+                              "category": "Popsicle Sorbet  Icecream",
+                              "description": "Serves 1 | Experience the bold burst of Jamun in every bite. Our Jamun Popsicle is a unique and refreshing twist on traditional treats.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/4062bb6e-e0f0-4f9f-9436-0ca8a9afb1cb_ad1950fc-e80f-4840-a7d4-c0cf247a8aa4.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108815"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704281",
+                              "name": "Popsicles Strawberry Ice cream",
+                              "category": "Popsicle Sorbet  Icecream",
+                              "description": "Serves 1 | Cool off with Strawberry Sorbet Popsicle. A refreshing burst of fruity sweetness in every delightful bite.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/5627a9c3-cf97-409b-a166-7463d738ceeb_e43ff78f-4ba8-45b8-9d85-ed301a6dd364.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108818"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/4062bb6e-e0f0-4f9f-9436-0ca8a9afb1cb_ad1950fc-e80f-4840-a7d4-c0cf247a8aa4.png",
+                      "categoryId": "64368898"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Popsicle Regular  Icecream",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704280",
+                              "name": "Popsicles Mango Ice cream",
+                              "category": "Popsicle Regular  Icecream",
+                              "description": "Serves 1 | Mango lovers, rejoice! Dive into the tropical bliss of Mango Popsicle for a luscious and refreshing treat. Per Serving: Calories 225.58kcal.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/be8e5185-e8cc-4062-b103-8c63daba9969_25e4875a-7297-4ab1-9d72-172be10e0475.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "5 ratings",
+                                  "ratingCountV2": "5"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108817"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704282",
+                              "name": "Popsicles Lotus Ice cream",
+                              "category": "Popsicle Regular  Icecream",
+                              "description": "Serves 1 | Our Popsicle encapsulates the rich, caramelized notes of Biscoff, creating a blissful, creamy experience on a stick. Per Serving: Calories 225.58kcal.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/739e764e-00a1-4216-b048-4e499025a44a_7c7f52f5-e4a6-41f9-8d51-13343d2d575b.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108816"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704284",
+                              "name": "Popsicles Coconut Ice cream",
+                              "category": "Popsicle Regular  Icecream",
+                              "description": "Serves 1- Escape to the tropics with our Coconut Popsiclerich coconut flavor frozen into a creamy, refreshing treat on a stick. Per Serving: Calories 225.58kcal.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/834c67ee-2842-44c4-8321-2b3582b6ac81_3bef377b-cfdc-4971-a859-4dbd66638ae4.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 13000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "103108814"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/be8e5185-e8cc-4062-b103-8c63daba9969_25e4875a-7297-4ab1-9d72-172be10e0475.png",
+                      "categoryId": "62266152"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Popsicle Chocolate Icecream",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704286",
+                              "name": "Belgium Chocolate Popsicles Chocolate Ice cream",
+                              "category": "Popsicle Chocolate Icecream",
+                              "description": "Serves 1 | The velvety goodness of Belgian Chocolate. Our Belgium Chocolate Popsicle is a decadent treat for chocolate lovers.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/1c0fdf4d-6e17-4ca9-b454-68c871fcb6e6_b8d12ad2-2be6-48da-a469-25a49bde4cba.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108803"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704287",
+                              "name": "Oreo Cookies & Cream Popsicles Chocolate Ice cream",
+                              "category": "Popsicle Chocolate Icecream",
+                              "description": "Serves 1 | Crunchy Oreo goodness in every bite. A delightful combination of cookies and creamy indulgence.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/862442ec-10a8-4449-b96c-cb55f492a20f_63ba7af3-1189-4d04-b07d-0072f06077e7.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "12 ratings",
+                                  "ratingCountV2": "12"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108812"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704288",
+                              "name": "Dairy Milk Silk Popsicles Chocolate Ice cream",
+                              "category": "Popsicle Chocolate Icecream",
+                              "description": "Serves 1 | Indulge in the velvety richness of Dairy Milk Silk, a frozen delight beyond compare.  Per Serving: Total Protein 6.17g.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/da958f32-6e9f-44c6-bce2-21c3f86c835e_3599eb79-5dbf-41d0-879e-1b3ef6c65fee.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 15000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG",
+                                "portionSize": "Serves 1"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "103108806"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/3/24/1c0fdf4d-6e17-4ca9-b454-68c871fcb6e6_b8d12ad2-2be6-48da-a469-25a49bde4cba.png",
+                      "categoryId": "64368899"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Rabdi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704308",
+                              "name": "Matka Rabdi",
+                              "category": "Rabdi",
+                              "description": "Serves 1-Creamy and thick rabdi served in an earthen pot (matka), offering a traditional and authentic Indian dessert experience with a rich and indulgent flavor.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/9ba867de-bf2f-4d5e-a74c-c61eef14c5a2_0be39044-9b0d-43e4-8655-e0c1dc61e3a0.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 12000,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.4",
+                                  "ratingCount": "10 ratings",
+                                  "ratingCountV2": "10"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "82930638"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704309",
+                              "name": "Gulab Jamun with  Rabdi",
+                              "category": "Rabdi",
+                              "description": "Serves 1-Soft and spongy gulab jamuns soaked in sugar syrup, served with creamy rabdi, creating a delightful combination of sweet and creamy textures with a hint of floral essence.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/b1dce9f6-61fe-4945-b886-0d67fb4c9692_2f5e4c2f-d892-4244-9845-259d6227f063.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "3.5",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#D9EFEC", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_medium",
+                                  "ratingTextColor": "rating_medium",
+                                  "ratingCountTextColor": "rating_medium",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "82930626"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704310",
+                              "name": "Rasmalai with  Rabdi",
+                              "category": "Rabdi",
+                              "description": "Serves 1-Delicate and creamy rasmalai dumplings soaked in flavored milk syrup, served with creamy rabdi, offering a luxurious and indulgent dessert with a blend of textures and flavors.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/cdd6d38e-64c5-4d7f-9a6b-b1f71562603b_60863ae2-786e-49a5-9e75-fe6c5afd529b.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.8",
+                                  "ratingCount": "9 ratings",
+                                  "ratingCountV2": "9"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "82930652"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/9ba867de-bf2f-4d5e-a74c-c61eef14c5a2_0be39044-9b0d-43e4-8655-e0c1dc61e3a0.png",
+                      "categoryId": "62227208"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Kulfi Rabdi",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704295",
+                              "name": "Rabdi Kesar Pista",
+                              "category": "Kulfi Rabdi",
+                              "description": "Serves 1- Rich and creamy rabdi infused with the aromatic essence of saffron (kesar) and the nuttiness of almonds & pistachios (pista), offering a delightful blend of flavors and textures.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/8e437f98-b1ef-4da5-9d86-d1366f8fe83a_e3a514ac-6d3c-496d-bef9-68cf09ece0db.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "4.3",
+                                  "ratingCount": "3 ratings",
+                                  "ratingCountV2": "3"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "82930646"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704296",
+                              "name": "Rabdi Malai",
+                              "category": "Kulfi Rabdi",
+                              "description": "Serves 1- Luxuriously creamy rabdi served with traditional malai kulfi, providing a rich and indulgent dessert experience with the perfect balance of creaminess.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/8d9a823a-6cb0-4d07-ae2e-76f4ab1e3143_1c3f2086-e388-4dae-88e4-f5c85a5d8b9b.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "82930647"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704297",
+                              "name": "Rabdi Mango",
+                              "category": "Kulfi Rabdi",
+                              "description": "Serves 1-Smooth and creamy rabdi served with mango kulfi, capturing the tropical sweetness and richness of mangoes in a delightful dessert ensemble.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/b52b3c83-8951-427a-a842-7a534a49e090_113f7c38-697f-4000-967a-c2d3db6b0235.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 19900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "82930648"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/8e437f98-b1ef-4da5-9d86-d1366f8fe83a_e3a514ac-6d3c-496d-bef9-68cf09ece0db.png",
+                      "categoryId": "62227201"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Kulfi Falooda",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704299",
+                              "name": "Kesar Pista Kulfi Falooda with Rabdi",
+                              "category": "Kulfi Falooda",
+                              "description": "Serves 1- A traditional Indian dessert combining saffron (kesar) and pistachio (pista) flavored kulfi with thin vermicelli noodles (falooda) and sweetened milk (rabdi). It's often garnished with chopped nuts and served chilled.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/e4e9684c-3166-4ba0-ad90-5f42cbcefab7_05fcb63a-d71f-4007-89c2-205f8a6e2f7d.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "ratings": {
+                                "aggregatedRating": {
+                                  "rating": "5.0",
+                                  "ratingCount": "4 ratings",
+                                  "ratingCountV2": "4"
+                                },
+                                "ratingsPresentationConfig": {
+                                  "bgGradient": {
+                                    "colours": ["#C8F9E5", "#00FFFFFF"],
+                                    "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                  },
+                                  "ratingIconColor": "rating_very_good",
+                                  "ratingTextColor": "rating_very_good",
+                                  "ratingCountTextColor": "rating_very_good",
+                                  "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                  "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                }
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "82930627"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704300",
+                              "name": "Malai Kulfi Falooda with Rabdi",
+                              "category": "Kulfi Falooda",
+                              "description": "Serves 1-Malai kulfi is a creamy frozen dessert made from thickened milk. When combined with falooda and rabdi, it creates a rich and indulgent dessert",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/1738ca87-fc05-4cca-9d48-bd5b8e98c67b_a7648c47-904b-4eca-876d-fb288e51ff2d.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "82930630"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704301",
+                              "name": "Mango Kulfi Falooda with Rabdi",
+                              "category": "Kulfi Falooda",
+                              "description": "Serves 1-Mango kulfi falooda with rabdi combines the tropical sweetness of mango with creamy kulfi, falooda noodles, and sweetened milk, creating a refreshing and flavorful dessert.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/b8ed5e96-3a61-4967-ad1d-31c8094f55e4_5f4a9ea9-0343-47f2-a4b4-fda4cabfc447.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "parentId": "82930635"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        },
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704302",
+                              "name": "Strawberry Kulfi Falooda with Rabdi",
+                              "category": "Kulfi Falooda",
+                              "description": "Serves 1-This dessert combines the refreshing taste of strawberries with creamy kulfi, falooda noodles, and sweetened rabdi, resulting in a delightful balance of flavors and textures.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/768a03df-2b66-48eb-a50c-2bcf633e7689_1dfeb8f1-0f28-4122-b065-358c53db649e.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 22900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {},
+                              "type": "ITEM",
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "parentId": "82930661"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/5/21/e4e9684c-3166-4ba0-ad90-5f42cbcefab7_05fcb63a-d71f-4007-89c2-205f8a6e2f7d.png",
+                      "categoryId": "62227203"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.NestedItemCategory",
+                      "title": "Dessert",
+                      "categories": [
+                        {
+                          "title": "Dessert.",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "180113978",
+                                  "name": "Kesar Gulab Jamun [2PC]",
+                                  "category": "Dessert",
+                                  "description": "Serves 1 | Enjoy our classic Indian dessert: soft khoya balls fried to perfection, bathed in sweet syrup infused with kesar (saffron). Rich, sweet, and utterly irresistible. Per Serving: Calories 326kcal, Total Protein 6.57g (Serves 1-2) (Approx).",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/e52fb24d-b8ae-4c3e-8498-cb17b57657ba_7873d352-7130-42f7-9700-e980094a8a1f.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 6900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "5 ratings",
+                                      "ratingCountV2": "5"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": ["#C8F9E5", "#00FFFFFF"],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "92083206"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "180113979",
+                                  "name": "Rasmalai [1PC]",
+                                  "category": "Dessert",
+                                  "description": "Serves 1 | It is soft & creamy Indian dessert made from soft cottage cheese cooked and soaked in enriched sweetened saffron milk.Per Serving: Calories 186kcal, Total Fat 8g (Serves 1) (Approx",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/3cae1356-0ef5-4597-865e-077495837cb2_37838084-5b64-4286-bebe-bb5aad7b8966.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 5900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "91697666"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "180113980",
+                                  "name": "Rasmalai [2PC]",
+                                  "category": "Dessert",
+                                  "description": "Serves 1 | Ras Malai is a delectable Indian sweet made with tender cheese balls immersed in a rich, sweetened milk flavored with cardamom. It's beautifully topped with finely chopped nuts, creating a creamy and aromatic dessert that's both flavorful and visually delightful. Per Serving: Calories 186kcal, Total Protein 6g (Serves 1-2) (Approx).",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/5edf1494-f786-412e-9b49-3956ed61b6a1_e7458fc4-858d-46a0-90ec-eb6001fd97e8.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {
+                                    "text": "Bestseller",
+                                    "textColor": "#ffffff",
+                                    "topBackgroundColor": "#d53d4c",
+                                    "bottomBackgroundColor": "#b02331"
+                                  },
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "isBestseller": true,
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "3.6",
+                                      "ratingCount": "4 ratings",
+                                      "ratingCountV2": "4"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": ["#D9EFEC", "#00FFFFFF"],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_medium",
+                                      "ratingTextColor": "rating_medium",
+                                      "ratingCountTextColor": "rating_medium",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "91074701"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "180113977",
+                                  "name": "Kesar Gulab Jamun [1PC]",
+                                  "category": "Dessert",
+                                  "description": "Serves 1 | Savor the essence of tradition with our soft, fried khoya balls soaked in a sweet sugary syrup infused with kesar (saffron). This classic Indian dessert offers a perfect balance of richness and sweetness in every bite.Per Serving: Calories 326kcal, Total Fat 7.50g (Serves 1) (Approx).",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/dda34b46-b7c6-4d43-aa25-9169b205f9fb_c25d960b-affb-4697-ba34-57bf1e459e9e.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 3900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {
+                                      "rating": "4.8",
+                                      "ratingCount": "9 ratings",
+                                      "ratingCountV2": "9"
+                                    },
+                                    "ratingsPresentationConfig": {
+                                      "bgGradient": {
+                                        "colours": ["#C8F9E5", "#00FFFFFF"],
+                                        "gradientDirection": "GRADIENT_DIRECTION_LEFT_TO_RIGHT"
+                                      },
+                                      "ratingIconColor": "rating_very_good",
+                                      "ratingTextColor": "rating_very_good",
+                                      "ratingCountTextColor": "rating_very_good",
+                                      "ratingFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD",
+                                      "ratingCountFontName": "FONT_NAME_V2_OVERLINE_NEUTRAL_BOLD"
+                                    }
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "91310665"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {},
+                          "categoryId": "66528221"
+                        },
+                        {
+                          "title": "Hot Dessert",
+                          "itemCards": [
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717818",
+                                  "name": "Choco Lava Cake (1 pc)",
+                                  "category": "Dessert",
+                                  "description": "Serves 1 | Indulge in the ultimate dessert experience with our Hot Molten Eggless Choco Lava Cake — a rich, moist chocolate cake with a warm, gooey molten center that melts in your mouth. Made without eggs and crafted to perfection, it’s the perfect sweet ending to every meal. (Energy: 371Kcal, Carbohydrates: 49.3gm, Proteins: 3.9g, Fat: 18gm, Sodium: 2mg).",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/12/3e2c8b59-15d3-483c-8517-4be805345184_ea7e4859-6288-4a15-92d4-ba110002b44a.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 9900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG",
+                                    "portionSize": "Serves 1"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "110470545"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            },
+                            {
+                              "card": {
+                                "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                                "info": {
+                                  "id": "182717819",
+                                  "name": "Choco Lava Cake (2 pcs)",
+                                  "category": "Dessert",
+                                  "description": "Treat yourself to a decadent dessert with our Hot Molten Eggless Choco Lava Cake – a soft, moist chocolate cake filled with a luscious molten chocolate center that flows with every bite. Eggless and expertly baked, it's the ideal finish to any meal. (Energy: 371Kcal, Carbohydrates: 49.3gm, Proteins: 3.9g, Fat: 18gm, Sodium: 2mg)",
+                                  "imageId": "FOOD_CATALOG/IMAGES/CMS/2025/9/12/61a0dd1c-468f-48ae-bce4-e47a8be46c1d_67ba6f6a-47b9-432e-b873-aabd75edb156.png",
+                                  "inStock": 1,
+                                  "isVeg": 1,
+                                  "price": 16900,
+                                  "variants": {},
+                                  "variantsV2": {},
+                                  "itemAttribute": {
+                                    "vegClassifier": "VEG"
+                                  },
+                                  "ribbon": {},
+                                  "type": "ITEM",
+                                  "itemBadge": {},
+                                  "badgesV2": {},
+                                  "ratings": {
+                                    "aggregatedRating": {}
+                                  },
+                                  "itemPriceStrikeOff": true,
+                                  "parentId": "110470546"
+                                },
+                                "analytics": {},
+                                "hideRestaurantDetails": true
+                              }
+                            }
+                          ],
+                          "subtitleSuffix": {},
+                          "categoryId": "69615235"
+                        }
+                      ],
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2025/3/9/e52fb24d-b8ae-4c3e-8498-cb17b57657ba_7873d352-7130-42f7-9700-e980094a8a1f.png",
+                      "categoryId": "66528220"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.ItemCategory",
+                      "title": "Special Falooda",
+                      "itemCards": [
+                        {
+                          "card": {
+                            "@type": "type.googleapis.com/swiggy.presentation.food.v2.Dish",
+                            "info": {
+                              "id": "151704303",
+                              "name": "Bombay Special Falooda",
+                              "category": "Special Falooda",
+                              "description": "Serves 1- Bombay falooda is a popular street food dessert in India. It typically consists of layers of flavored milk, falooda noodles, basil seeds, and ice cream, often garnished with nuts and rose syrup. It's known for its refreshing and indulgent taste.",
+                              "imageId": "FOOD_CATALOG/IMAGES/CMS/2024/9/4/b431e486-b30a-4e39-a65d-398e86a6add8_166cbb9a-26e1-4c2c-8b98-b7b47913f4f1.png",
+                              "inStock": 1,
+                              "isVeg": 1,
+                              "price": 24900,
+                              "variants": {},
+                              "variantsV2": {},
+                              "itemAttribute": {
+                                "vegClassifier": "VEG"
+                              },
+                              "ribbon": {
+                                "text": "Bestseller",
+                                "textColor": "#ffffff",
+                                "topBackgroundColor": "#d53d4c",
+                                "bottomBackgroundColor": "#b02331"
+                              },
+                              "type": "ITEM",
+                              "offerTags": [
+                                {
+                                  "title": "Buy 1 Get 1",
+                                  "textColor": "#DB6742",
+                                  "backgroundColor": "#FAE8E3",
+                                  "matchText": "B1G1"
+                                }
+                              ],
+                              "itemBadge": {},
+                              "badgesV2": {},
+                              "itemNudgeType": "B1G1",
+                              "itemLevelDiscount": "ITEM_LEVEL_DISCOUNT_B1G1",
+                              "isBestseller": true,
+                              "ratings": {
+                                "aggregatedRating": {}
+                              },
+                              "itemPriceStrikeOff": true,
+                              "isBolt": true,
+                              "boltImageId": "bolt/bolt-tag/bolt_menu_tag.png",
+                              "offerIds": [
+                                "97e227c5-a940-409f-a68d-79dc6bcd8f6c"
+                              ],
+                              "parentId": "110754031"
+                            },
+                            "analytics": {},
+                            "hideRestaurantDetails": true
+                          }
+                        }
+                      ],
+                      "subtitleSuffix": {},
+                      "image": "FOOD_CATALOG/IMAGES/CMS/2024/9/4/b431e486-b30a-4e39-a65d-398e86a6add8_166cbb9a-26e1-4c2c-8b98-b7b47913f4f1.png",
+                      "categoryId": "62227206"
+                    }
+                  }
+                },
+                {
+                  "card": {
+                    "card": {
+                      "@type": "type.googleapis.com/swiggy.presentation.food.v2.RestaurantAddress",
+                      "name": "Wow! Kulfi",
+                      "area": "Bokaro Mall Food Court",
+                      "completeAddress": "Wow! Momo Foods Pvt Ltd, Counter No. 5, Third floor level, Bokaro Mall Food Court, Sector-3 C, Bokaro Steel City - 827003"
+                    }
+                  }
+                }
+              ]
+            }
+          }
+        }
+      }
+    ],
+    "firstOffsetRequest": true,
+    "isQCLink": false
+  },
+  "tid": "9a0deabc-2710-4d26-99aa-8911015d99f1",
+  "sid": "oog5f13e-8902-4b6a-8c8d-d8de0517330d",
+  "deviceId": "3019bd6d-60be-9683-1675-62b5ec8037e9",
+  "csrfToken": "U4r9BpWY1fO5-dgUJ5tKvHyX5F2mxIEytJrqogl8"
+}
