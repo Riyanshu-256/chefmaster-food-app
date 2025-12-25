@@ -6,48 +6,13 @@
 
 ## 📋 Table of Contents
 
-- [Product Overview](#product-overview)
-- [Features](#features)
-- [Tech Stack](#tech-stack)
-- [Project Architecture](#project-architecture)
-- [Installation & Setup](#installation--setup)
-- [Available Scripts](#available-scripts)
-- [Application Flow](#application-flow)
-- [Performance Optimizations](#performance-optimizations)
-- [Testing Strategy](#testing-strategy)
-- [Environment Configuration](#environment-configuration)
-- [Accessibility & UX](#accessibility--ux)
-- [Production Best Practices](#production-best-practices)
-- [Future Roadmap](#future-roadmap)
-- [Contributing](#contributing)
-- [Credits & Learning Resources](#credits--learning-resources)
-- [License](#license)
+[Product Overview](#product-overview) • [Features](#features) • [Tech Stack](#tech-stack) • [Project Architecture](#project-architecture) • [Installation & Setup](#installation--setup) • [Available Scripts](#available-scripts) • [Application Flow](#application-flow) • [Performance Optimizations](#performance-optimizations) • [Testing Strategy](#testing-strategy) • [Accessibility & UX](#accessibility--ux) • [Future Roadmap](#future-roadmap) • [Contributing](#contributing) • [Credits & Learning Resources](#credits--learning-resources) • [License](#license)
 
 ---
 
 ## 🎯 Product Overview
 
-**CHEFMASTER-FOOD-APP** is a modern, full-featured food ordering platform that mirrors real-world food delivery applications like Swiggy and Zomato. Built with production-grade React.js practices, this application demonstrates enterprise-level architecture, scalable state management, and optimized performance patterns.
-
-### Value Proposition
-
-**Problem Solved:** Streamlines the food ordering experience by providing an intuitive interface for restaurant discovery, menu browsing, and cart management—all while maintaining fast load times and responsive interactions.
-
-**Target Users:**
-- End consumers seeking a seamless food ordering experience
-- Developers learning production React patterns
-- Engineering teams evaluating scalable frontend architectures
-
-### Engineering Philosophy
-
-This project embodies production-ready React development principles, emphasizing:
-- **Modular, component-driven architecture** for maintainability
-- **Predictable state management** using Redux Toolkit
-- **Performance-first design** with code splitting and lazy loading
-- **Testable codebase** with comprehensive unit test coverage
-- **API abstraction layers** for clean separation of concerns
-
-The implementation follows industry best practices learned from **Akshay Saini's Namaste React curriculum**, focusing on understanding React internals, hooks, performance optimization, and scalable application architecture.
+**CHEFMASTER-FOOD-APP** is a modern food ordering platform built with production-grade React.js practices. It demonstrates enterprise-level architecture, scalable state management with Redux Toolkit, and optimized performance patterns including code splitting and lazy loading. The application follows industry best practices from **Akshay Saini's Namaste React curriculum**, emphasizing modular component-driven architecture, predictable state management, and testable codebase.
 
 ---
 
@@ -306,94 +271,13 @@ This generates an optimized production build in the `dist/` directory, ready for
 
 ## 🔄 Application Flow
 
-### Data Flow Architecture
-
-```
-┌─────────────────────────────────────────────────────────────┐
-│                        User Interaction                      │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    React Component Layer                     │
-│  (Body, RestaurantMenu, Cart, etc.)                         │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    Custom Hooks Layer                       │
-│  (useRestaurantMenu, useOnlineStatus)                       │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                      API Abstraction Layer                   │
-│  (utils/api/index.jsx, swiggyAPI.json)                      │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    Redux Store (Global State)                │
-│  ┌──────────────────────────────────────────────────────┐  │
-│  │  cart: { items: [...] }                              │  │
-│  │  - addItem(action)                                   │  │
-│  │  - removeItem(action)                                │  │
-│  │  - clearCart(action)                                 │  │
-│  └──────────────────────────────────────────────────────┘  │
-└───────────────────────┬─────────────────────────────────────┘
-                        │
-                        ▼
-┌─────────────────────────────────────────────────────────────┐
-│                    UI Re-render (Optimized)                  │
-│  - React Redux selectors prevent unnecessary renders        │
-│  - Memoized components where applicable                    │
-└─────────────────────────────────────────────────────────────┘
-```
-
-### State Lifecycle Example: Adding Item to Cart
-
-1. **User Action**: Click "Add to Cart" button on `MenuItem` component
-2. **Event Handler**: Dispatches `addItem(item)` action
-3. **Redux Reducer**: `cartSlice` updates state with new item
-4. **Store Update**: Redux store notifies connected components
-5. **Selector Update**: `Cart` component receives updated cart items via `useSelector`
-6. **UI Re-render**: Cart icon badge and cart page update automatically
+Data flows through the application in a unidirectional pattern: **Component → Custom Hook → API Layer → Redux Store → UI Update**. User interactions trigger actions that update the Redux store, which then notifies connected components via selectors. For example, adding an item to cart dispatches `addItem` action, updates the cart slice, and automatically re-renders the cart UI with optimized selectors preventing unnecessary renders.
 
 ---
 
 ## ⚡ Performance Optimizations
 
-### Code Splitting & Lazy Loading
-
-- **Route-based code splitting**: Grocery component loaded on-demand using `React.lazy()`
-- **Suspense boundaries**: Graceful loading states during code splitting
-- **Bundle optimization**: Parcel automatically splits vendor and application code
-
-```jsx
-const Grocery = lazy(() => import("./components/Grocery"));
-
-<Suspense fallback={<Shimmer />}>
-  <Grocery />
-</Suspense>
-```
-
-### Rendering Optimizations
-
-- **Redux selector optimization**: Components only re-render when relevant state changes
-- **Shimmer placeholders**: Improve perceived performance during data fetching
-- **Conditional rendering**: Prevents unnecessary DOM updates
-
-### CSS Optimization
-
-- **Tailwind CSS purging**: Unused styles automatically removed in production
-- **PostCSS processing**: Autoprefixer for cross-browser compatibility
-- **Custom animations**: Optimized keyframe animations in Tailwind config
-
-### Build Optimizations
-
-- **Parcel bundler**: Zero-configuration, optimized production builds
-- **Asset optimization**: Automatic image and asset optimization
-- **Tree shaking**: Dead code elimination in production builds
+The application implements route-based code splitting with `React.lazy()` for the Grocery component, Redux selector optimization to prevent unnecessary re-renders, shimmer placeholders for better perceived performance, and Tailwind CSS purging for optimized production builds. Parcel handles automatic bundle splitting, tree shaking, and asset optimization.
 
 ---
 
@@ -446,106 +330,9 @@ open coverage/lcov-report/index.html
 
 ---
 
-## 🔧 Environment Configuration
-
-### API Endpoint Management
-
-Currently, the application uses a live Swiggy API endpoint for restaurant data. In a production environment, this should be managed through environment variables:
-
-**Recommended Setup:**
-
-1. Create `.env` file (not committed to git):
-   ```env
-   REACT_APP_API_BASE_URL=https://api.chefmaster.com
-   REACT_APP_API_KEY=your_api_key_here
-   ```
-
-2. Update API calls to use environment variables:
-   ```javascript
-   const API_BASE_URL = process.env.REACT_APP_API_BASE_URL;
-   ```
-
-3. Add `.env` to `.gitignore`:
-   ```
-   .env
-   .env.local
-   .env.production
-   ```
-
-### Build-time Configuration
-
-- **Parcel**: Automatically handles environment variables prefixed with `REACT_APP_`
-- **Babel**: Transpiles modern JavaScript for browser compatibility
-- **PostCSS**: Processes Tailwind CSS and applies Autoprefixer
-
-### Production Considerations
-
-- **API Rate Limiting**: Implement request throttling for production APIs
-- **Error Monitoring**: Integrate error tracking (Sentry, LogRocket)
-- **Analytics**: Add user behavior tracking (Google Analytics, Mixpanel)
-- **CDN Integration**: Serve static assets from CDN for global performance
-
----
-
 ## ♿ Accessibility & UX
 
-### Responsive Design
-
-- **Mobile-first approach**: Optimized for mobile devices (320px+)
-- **Tablet optimization**: Responsive breakpoints for tablet screens
-- **Desktop enhancement**: Enhanced layouts for larger screens
-- **Tailwind responsive utilities**: `sm:`, `md:`, `lg:`, `xl:` breakpoints
-
-### Keyboard Navigation
-
-- **Focus management**: Proper tab order and focus indicators
-- **Keyboard shortcuts**: Support for common navigation patterns
-- **ARIA labels**: Semantic HTML for screen readers
-
-### Motion & Animation
-
-- **Framer Motion**: Purposeful animations that enhance UX
-- **Reduced motion support**: Respects user preferences
-- **Performance-conscious**: Animations use GPU acceleration
-
-### Consistent UI Behavior
-
-- **Loading states**: Shimmer placeholders maintain layout stability
-- **Error states**: Clear error messages with recovery options
-- **Empty states**: Helpful messaging when no data is available
-- **Offline detection**: Clear indication of network status
-
----
-
-## 🏗️ Production Best Practices
-
-### Code Quality
-
-- **ESLint**: Enforce consistent code style (recommended addition)
-- **Prettier**: Automatic code formatting (recommended addition)
-- **TypeScript**: Type safety (future consideration)
-- **Clean code principles**: Readable, maintainable, self-documenting code
-
-### Scalable Architecture
-
-- **Feature-based folders**: Easy to locate and modify features
-- **Separation of concerns**: UI, business logic, and data layers separated
-- **Reusable components**: DRY principle applied throughout
-- **Custom hooks**: Extract and reuse stateful logic
-
-### Error Handling
-
-- **Error boundaries**: Graceful error recovery at component level
-- **Try-catch blocks**: Proper error handling in async operations
-- **User-friendly messages**: Clear error communication
-- **Fallback UI**: Alternative content when errors occur
-
-### Security Considerations
-
-- **Input validation**: Sanitize user inputs
-- **XSS prevention**: React's built-in XSS protection
-- **API security**: Secure API key management
-- **HTTPS enforcement**: Secure data transmission
+The application follows a mobile-first responsive design with Tailwind breakpoints, includes proper keyboard navigation and ARIA labels, uses Framer Motion for purposeful animations, and maintains consistent UI behavior with shimmer loading states, error boundaries, and offline detection.
 
 ---
 
@@ -586,88 +373,19 @@ Currently, the application uses a live Swiggy API endpoint for restaurant data. 
 
 ## 🤝 Contributing
 
-We welcome contributions! Please follow these guidelines:
-
-### Branch Strategy
-
-- **Main branch**: Production-ready code
-- **Feature branches**: `feature/feature-name`
-- **Bug fixes**: `fix/bug-description`
-- **Hotfixes**: `hotfix/issue-description`
-
-### Pull Request Process
-
-1. **Fork the repository**
-2. **Create a feature branch** from `main`
-3. **Make your changes** with clear, descriptive commits
-4. **Write/update tests** for new functionality
-5. **Ensure all tests pass** (`npm test`)
-6. **Update documentation** if needed
-7. **Submit a pull request** with a clear description
-
-### Code Quality Expectations
-
-- **Follow existing code style** and patterns
-- **Write meaningful commit messages**
-- **Add tests** for new features
-- **Update README** if adding new features
-- **Ensure responsive design** works on all devices
-
-### Review Standards
-
-- All PRs require at least one approval
-- Code must pass all tests
-- No merge conflicts
-- Documentation updated if applicable
+We welcome contributions! Fork the repository, create a feature branch (`feature/feature-name`), make your changes with clear commits, write/update tests, ensure all tests pass, and submit a pull request. Follow existing code style, add tests for new features, and ensure responsive design works on all devices.
 
 ---
 
 ## 📚 Credits & Learning Resources
 
-### Educational Inspiration
-
-This project is an **independent implementation** inspired by concepts and best practices taught in **Akshay Saini's Namaste React curriculum**. The curriculum emphasizes:
-
-- **Deep understanding of React internals** - How React works under the hood
-- **Modern React patterns** - Hooks, Context API, performance optimization
-- **Production-grade architecture** - Scalable folder structures, state management
-- **Real-world application development** - Building applications that mirror industry standards
-
-### Key Learnings Applied
-
-- **React Fundamentals**: Components, JSX, Virtual DOM
-- **Hooks**: useState, useEffect, custom hooks
-- **State Management**: Redux Toolkit, Context API
-- **Performance**: Code splitting, lazy loading, memoization
-- **Testing**: Component testing, mocking, coverage
-- **Build Tools**: Parcel, Babel, PostCSS
-- **Styling**: Tailwind CSS, utility-first approach
-
-### Disclaimer
-
-This project is an **independent work** created to demonstrate production-ready React development skills. While inspired by educational content, all code, architecture decisions, and implementations are original.
+This project is an **independent implementation** inspired by concepts from **Akshay Saini's Namaste React curriculum**, focusing on React internals, modern patterns (Hooks, Context API), production-grade architecture, and real-world application development. All code, architecture decisions, and implementations are original.
 
 ---
 
 ## 📄 License
 
 This project is licensed under the **ISC License**.
-
----
-
-## 📸 Screenshots / UI Preview
-
-### Home Page
-_Placeholder for home page screenshot showing restaurant listings_
-
-### Restaurant Menu
-_Placeholder for restaurant menu page showing categories and items_
-
-### Cart Page
-_Placeholder for shopping cart with items and totals_
-
-### Grocery Page
-_Placeholder for grocery section with product listings_
 
 ---
 
